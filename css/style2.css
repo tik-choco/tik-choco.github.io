@@ -1,0 +1,56 @@
+
+body {
+    font-family:
+      -apple-system, BlinkMacSystemFont,
+      "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #intro {
+          margin-top: -58.59px;
+          height: 40vh !important;
+          z-index: -20000;
+        }
+        .navbar .nav-link {
+          color: #fff !important;
+        }
+      }
+  
+      @media screen and (max-width:992px) {
+ 
+        #intro {
+          margin-top: -58.59px;
+          height: 40vh !important;
+          z-index: -20000;
+        }
+        .navbar .nav-link {
+          color: #fff !important;
+          z-index: 3000å;
+        }
+       
+      }
+
+      #intro_404 {
+        background-image: url(https://tik-choco.github.io/img/30015512-7ead-4a0c-aa67-a354a7e9c333.png);
+        height: 100vh;
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #intro_404 {
+          margin-top: -58.59px;
+        }
+      }
+
+      #maintenance_intro {
+        background-image: url(../img/30015512-7ead-4a0c-aa67-a354a7e9c333.png);
+        height: 100vh;
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #maintenance_intro {
+          margin-top: -58.59px;
+        }
+      }

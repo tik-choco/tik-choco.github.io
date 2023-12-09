@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity Hub Link</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+
+    <div class="alert alert-info" role="alert">
+        Unity Hubにリダイレクトします...
+    </div>
+
+    <script>
+        // Unity HubのURIを指定
+        var unityHubUri = "unityhub://2022.3.3f1/7cdc2969a641";
+
+        // ページの読み込みが完了したらUnity Hubにリダイレクト
+        window.onload = function () {
+            window.location.href = unityHubUri;
+        };
+    </script>
+
+    <!-- Bootstrap JS (jQueryとPopper.jsが必要) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
